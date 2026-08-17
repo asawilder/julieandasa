@@ -67,7 +67,7 @@ body {
 /* Hero Landing Section */
 .hero-section {
     img {
-    background-image: url("images/IMG_2802.jpg");
+    background-image: url('images/IMG_2802.jpg');
     background-color: #0d0d0d;
     width: 800px;
     height: 500px;}
