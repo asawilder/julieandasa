@@ -65,7 +65,8 @@ body {
 }
 
 /* Hero Landing Section */
-.hero-section {
+
+
     .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/IMG_2802.jpg");
     height: 50%;
@@ -82,27 +83,6 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-
-.hero-content h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-.hero-content h2 {
-    font-size: 3rem;
-    margin-bottom: 80px;
-}
-
-.hero-content p {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
-}
-
-
-
-
-
 
 .btn {
     display: inline-block;
