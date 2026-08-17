@@ -66,7 +66,21 @@ body {
 
 /* Hero Landing Section */
 .hero {
-    background: url('https://drive.google.com/file/d/10malqgr-8kK3NrTRxEAB08ZtakqyPT6c/view?usp=drive_link') no-repeat center center/cover;
+    /* Sets the background image file path */
+    background-image: url('https://drive.google.com/file/d/10malqgr-8kK3NrTRxEAB08ZtakqyPT6c/view?usp=drive_link');
+
+    /* Prevents the image from repeating like a grid */
+    background-repeat: no-repeat;
+
+    /* Scales the image to completely cover the element */
+    background-size: cover;
+
+    /* Centers the image within the element */
+    background-position: center;
+
+    /* Fallback color if the image fails to load */
+    background-color: #cccccc;
+}
     height: 70vh;
     display: flex;
     align-items: center;
