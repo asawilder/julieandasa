@@ -69,10 +69,9 @@ body {
     img {
     background-image: url('images/IMG_2802.jpg');
     background-color: #0d0d0d;
-    width: 800px;
-    height: 500px;}
-    background-size:  width: 800px;
-    height: 500px;
+    background-size: 
+        width: 800px;
+        height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 80vh;
