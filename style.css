@@ -70,7 +70,7 @@ body {
   background-size: 1600 x 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,6 +79,10 @@ body {
 }
 
 
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
 .hero-content h2 {
     font-size: 4rem;
@@ -86,9 +90,14 @@ body {
 }
 
 .hero-content p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
+
+
+
+
+
 
 .btn {
     display: inline-block;
