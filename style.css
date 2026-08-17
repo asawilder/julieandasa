@@ -65,28 +65,20 @@ body {
 }
 
 /* Hero Landing Section */
-.hero {
-    /* Sets the background image file path */
-    background-image: url('IMG_2802.jpg');
-
-    /* Prevents the image from repeating like a grid */
-    background-repeat: no-repeat;
-
-    /* Scales the image to completely cover the element */
-    background-size: cover;
-
-    /* Centers the image within the element */
-    background-position: center;
-
-    /* Fallback color if the image fails to load */
-    background-color: #cccccc;
+.hero-section {
+  background-image: url('IMG_2802.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-align: center;
-}
+
+
 
 .hero-content h2 {
     font-size: 14rem;
