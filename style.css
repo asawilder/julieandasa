@@ -4,18 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.flamenco-light {
-  font-family: "Flamenco", system-ui;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.flamenco-regular {
-  font-family: "Flamenco", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body, html {
     font-family:  "Flamenco", system-ui;
     line-height: 1.6;
