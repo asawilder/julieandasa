@@ -100,7 +100,7 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
-        .btn {
+.btn {
     display: inline-block;
     background: #007BFF;
     color: #fff;
@@ -109,10 +109,6 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s;
-        }
-
-        .btn:hover {
-    background: #0056b3;
 }
 
 /* Grid & Cards Section */
