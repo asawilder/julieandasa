@@ -79,22 +79,35 @@ body {
 
 
     .hero-image {
-        background-image: rgba(0, 0, 0, 0.5)), url("images/IMG_2802.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;}
+       body, html {
+    height: 100%;
+}
 
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/IMG_2802.jpg");
 
-.btn {
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+        .btn {
     display: inline-block;
     background: #007BFF;
     color: #fff;
@@ -103,9 +116,9 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s;
-}
+        }
 
-.btn:hover {
+        .btn:hover {
     background: #0056b3;
 }
 
