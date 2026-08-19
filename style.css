@@ -82,6 +82,7 @@ body, html {
 }
 .hero-text-box {
   position: relative;
+    justify-content: center;
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
