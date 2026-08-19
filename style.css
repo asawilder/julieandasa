@@ -81,7 +81,7 @@ body, html {
     color: white;
 }
 .hero-text-box {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
@@ -95,7 +95,7 @@ body, html {
     display: inline-block;
     background: #ff008c;
     color: #fff;
-    padding: 12px 30px;
+    padding: 12px 40px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
