@@ -86,7 +86,7 @@ body, html {
   left: 10%;
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
-  padding: 50px;
+  padding: 30px;
   max-width: 500px;
   border-radius: 8px;
   color: #ffffff;
