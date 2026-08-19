@@ -120,18 +120,20 @@ body, html {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
-.img {
-  /* Forces the image to stretch/shrink to the 1fr column width */
-  width: 100%; 
-  /* Prevents distortion by maintaining aspect ratio */
-  height: auto; 
-}
+
 .card {
     background: #f4f4f4;
     padding: 30px;
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .card:hover {
