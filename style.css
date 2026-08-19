@@ -81,7 +81,7 @@ body, html {
     color: white;
 }
 .hero-text-box {
-  display: flex;
+  position: absolute;
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
