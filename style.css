@@ -73,12 +73,6 @@ body, html {
     color: #fff;
     text-align: center;
 }
-.hero-container {
-  display: flex;
-  justify-content: center; /* Horizontally centers the content box */
-  align-items: center;     /* Vertically centers the content box */
-  min-height: 80vh;        /* Gives the hero section substantial height */
-}
 
 .hero-content h2 {
     font-size: 3rem;
