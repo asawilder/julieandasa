@@ -81,12 +81,12 @@ body, html {
     color: white;
 }
 .hero-text-box {
-  position: absolute;
+  display: flex;
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
-  padding: 30px;
+  padding: 40px;
   max-width: 500px;
   border-radius: 8px;
   color: #ffffff;
