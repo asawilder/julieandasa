@@ -67,7 +67,7 @@ body, html {
 /* The hero image */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/IMG_2802.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
