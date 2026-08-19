@@ -120,7 +120,12 @@ body, html {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
-
+img {
+  /* Forces the image to stretch/shrink to the 1fr column width */
+  width: 100%; 
+  /* Prevents distortion by maintaining aspect ratio */
+  height: auto; 
+}
 .card {
     background: #f4f4f4;
     padding: 30px;
