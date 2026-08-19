@@ -80,7 +80,17 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
 }
-
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 8px;
+  color: #ffffff;
+    
 .btn {
     display: inline-block;
     background: #ff008c;
