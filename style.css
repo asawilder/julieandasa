@@ -83,12 +83,12 @@ body, html {
 
 .btn {
     display: inline-block;
-    background: #007BFF;
+    background: #ff008c;
     color: #fff;
-    padding: 14px 40px;
+    padding: 12px 30px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     transition: background 0.3s;
 }
