@@ -125,6 +125,11 @@ body, html {
   /* Hides the scrollbar in Firefox and Webkit browsers */
  /* scrollbar-width: none; */
 }
+.carousel-list li {
+  flex: 0 0 100%;                 /* Slide takes up 100% of container width */
+  scroll-snap-align: center;      /* Snap alignment (can also be 'start') */
+  box-sizing: border-box;
+}
 .carousel-slides::-webkit-scrollbar {
   width: 8px;
   height: 8px;
