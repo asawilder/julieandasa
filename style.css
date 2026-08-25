@@ -103,6 +103,46 @@ body, html {
     transition: background 0.3s;
 }
 
+/* Container to limit the size of your carousel */
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* The scrollable row holding all the images */
+.carousel-slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /* Forces horizontal snapping */
+  scroll-behavior: smooth;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  /* Hides the scrollbar in Firefox and Webkit browsers */
+  scrollbar-width: none; 
+}
+.carousel-slides::-webkit-scrollbar {
+  display: none; 
+}
+
+/* Individual slide tracking */
+.slide {
+  flex: 0 0 100%; /* Forces each slide to be exactly full width */
+  width: 100%;
+  scroll-snap-align: center; /* Snaps the image right to the center */
+}
+
+/* Responsive images inside the slides */
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ensures images don't look stretched */
+}
 /* Grid & Cards Section */
 .services {
     padding: 60px 0;
