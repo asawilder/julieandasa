@@ -123,12 +123,17 @@ body, html {
   margin: 0;
   
   /* Hides the scrollbar in Firefox and Webkit browsers */
-  scrollbar-width: none; 
+ /* scrollbar-width: none; */
 }
 .carousel-slides::-webkit-scrollbar {
-  display: none; 
+  width: 8px;
+  height: 8px;
 }
 
+.carousel-slides::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
 /* Individual slide tracking */
 .slide {
   flex: 0 0 100%; /* Forces each slide to be exactly full width */
